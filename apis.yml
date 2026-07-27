@@ -1,7 +1,32 @@
 aid: haladir
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/haladir.png
 name: Haladir
-description: Haladir is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Haladir is a Y Combinator-backed startup building a decisional AI platform for
+  logistics operations. Describing itself as "the decisional AI layer for
+  logistics," Haladir unifies fragmented operational data from existing warehouse
+  management (WMS), transportation management (TMS), and order management (OMS)
+  systems into a single operational graph, then applies constraint-optimization
+  solvers and machine-learning models to automate supply chain decisions across
+  routing, picking, labor allocation, and inventory. Its approach treats large
+  language models as formalization tools that translate messy operational rules
+  into precise constraints for traditional solvers, rather than as decision-makers.
+  Target customers include third-party logistics providers (3PLs), contract
+  logistics providers, distributors, and shippers managing global supply chains.
+  The company has raised $4.3M in seed funding led by BoxGroup and Susa Ventures.
+  This profile currently exposes no public API or developer documentation; it is
+  tracked in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/haladir/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Logistics
+- Supply Chain
+- Artificial Intelligence
+- Machine Learning
+- Optimization
+- Warehouse Management
+- Y Combinator
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/haladir-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.haladir.com/security
+- type: DomainSecurity
+  url: security/haladir-domain-security.yml
+- type: Website
+  url: https://haladir.com/
+- type: Blog
+  url: https://haladir.com/blog/seed-round
+- type: Support
+  url: mailto:support@haladir.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/haladir/
+- type: Twitter
+  url: https://x.com/Haladirofficial
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
