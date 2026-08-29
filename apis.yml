@@ -39,6 +39,9 @@ description: >-
   This profile currently exposes no public API or developer documentation; it is
   tracked in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/haladir/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile currently exposes no public API or developer documentation; it is tracked in the API Evangelist network as a company profile."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
